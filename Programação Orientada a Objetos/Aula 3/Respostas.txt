@@ -1,0 +1,82 @@
+//1003: Soma Simples
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int A=0, B=0, SOMA=0;
+    cin >>A;
+    cin >>B;
+    SOMA = A + B;
+	
+    cout << "SOMA = " << SOMA << endl;
+	
+    return 0;
+}
+
+
+//1581: Conversa Internacional
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    int N=0;
+    cin >>N;
+
+    for (int i=0; i<N; i++){
+        int K=0;
+        cin >>K;
+
+        string idiomaEntrada("");
+        string idiomaFalado("");
+
+        for (int j=0; j<K; j++){
+            cin >> idiomaEntrada;
+
+            if (j==0)
+                idiomaFalado = idiomaEntrada;
+
+            if (idiomaFalado != idiomaEntrada)
+                idiomaFalado = "ingles";
+        }
+
+        cout << idiomaFalado << endl;
+    }
+
+    return 0;
+}
+
+
+
+//2242: Huaauhahhuahau
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    string risada;
+    cin >>risada;
+
+
+
+    for (int i=0; i<risada.length(); i++){
+       if(risada[i]=='a' || risada[i]=='b'
+
+    }
+
+    for (i=0; i<(string.length())/2; i++){
+        c = str[i];
+        str[i] = str[tam-1-i];
+        str[tam-1-i] = c;
+    }
+
+    cout << "S" << endl;
+    cout << "N" << endl;
+    return 0;
+}
