@@ -1,0 +1,46 @@
+//A
+QuickSort(v,ini,fim):
+	Se ini >= fim 
+		return;
+	metade = (fim-ini)/2
+	pivo = v[metade]
+	contMenor=0;
+	contMaior=0;
+	vMaior, vMenor;
+	
+	Para i = ini ate fim:
+		Se i <> metade:
+			Se pivo > v[i]:
+				vMenor[contMenor] = v[i];
+				contMenor++;
+			senão 
+				Se v[i] > pivo:
+					vMaior[contMaior] = v[i];
+					vMaior++;
+				senão
+					Se i<metade:
+						vMenor[contMenor] = v[i];
+						contMenor++;
+					senao
+						vMaior[contMaior] = v[i];
+						vMaior++;
+	
+	
+//prencher o vetor de novo
+	Para (i=0 ate contMenor+contMaior){
+		Se (i<contMaior)
+			v[i] = vMenor[i];
+		
+		Se ( i = contMenor)
+			v[i] = pivo;
+		
+		Se (i > contMenor)
+			v[i] = vMaior[i-contMenor];
+		
+		
+		
+	QuickSort(v, 0, contMenor-1)
+	QuickSort(v,contMenor+1, contMaior)
+
+//B
+Na analise de algoritmo esse algoritmo no pior caso ele continua sendo O(N^2)

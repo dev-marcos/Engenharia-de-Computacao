@@ -1,0 +1,35 @@
+
+
+typedef struct nodo{
+    struct nodo *proximo;
+    struct nodo *filho;
+    char letra;
+    char *conteudo;
+}nodo
+
+Implementei uma Lista Encadeada Simples no Nó da Trie, para que possa indicar o próximo elemento irmão.
+Esta implementação é focada na melhor otimização de complexidade de espaço. Como se trata de uma estrutura dinâmica, vou estanciando apenas os nós necessário.
+
+
+
+
+busca(nodo *trie, char *s) {
+    Se *s == ‘\0’
+        return trie->conteudo == NULL ? "nao" : trie->conteudo;
+
+    Se trie->letra == letra(s){
+        se (trie->filho != NULL)
+            busca(trie->filho, s+1) 
+        senao
+            return "nao"  
+    } senao{
+        se (trie->proximo != NULL)
+            busca(trie->proximo, s) 
+        senao
+            return "nao"     
+    }
+}
+
+
+N chaves com no máximo M letras
+O(N*M)

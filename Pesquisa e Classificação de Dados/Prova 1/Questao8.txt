@@ -1,0 +1,2 @@
+Bublle Sort 
+Varre o vetor trocando os elementos adjacentes que estão errado, e vai varrendo-o N vezes, ao final ele vai estar ordenado.

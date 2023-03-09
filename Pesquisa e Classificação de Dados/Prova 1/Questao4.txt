@@ -1,0 +1,1 @@
+No melhor caso desse algoritmo é quando o vetor vem preenchido com 1, no qual iria executar o segundo for apenas uma vez, no pior caso seria 100. Neste caso como possui a mesma probabilidade, a média seria 50, resultando em um O=50*N. Como o 50 se trata de um numero natura a resposta ficaria O=N.
