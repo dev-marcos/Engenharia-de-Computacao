@@ -8,7 +8,7 @@ c) e responda se a soma “a+b” é igual a “c”. Teste com a = 0,1 , b = 0,2 e c = 0
 
 int fequal(double a, double b)
 {
-    //a funcao fabs serve para retornar o valor
+    //a funcao fabs é correspondnete ao módulo do valor
     return fabs(a-b) < 0.000000001;
 }
 
