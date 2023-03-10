@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/aluno/Documents/DE0-Nano/exercicio_2/exercicio_2.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/aluno/Documents/DE0-Nano/exercicio_2/db/exercicio_2.cbx.xml
+design_name = hard_block
+design_name = exercicio_2
+instance = comp, \out_vec[1]~output\, out_vec[1]~output, exercicio_2, 1
+instance = comp, \out_vec[0]~output\, out_vec[0]~output, exercicio_2, 1
+instance = comp, \a_vec[1]~input\, a_vec[1]~input, exercicio_2, 1
+instance = comp, \a_vec[0]~input\, a_vec[0]~input, exercicio_2, 1
