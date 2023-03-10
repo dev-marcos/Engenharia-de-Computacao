@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SAIDA",
+					"strict" : false
+				},
+				{
+					"name" : "in_vec[1]",
+					"strict" : false
+				},
+				{
+					"name" : "s_vec[1]",
+					"strict" : false
+				},
+				{
+					"name" : "in_vec[2]",
+					"strict" : false
+				},
+				{
+					"name" : "s_vec[0]",
+					"strict" : false
+				},
+				{
+					"name" : "in_vec[0]",
+					"strict" : false
+				},
+				{
+					"name" : "in_vec[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

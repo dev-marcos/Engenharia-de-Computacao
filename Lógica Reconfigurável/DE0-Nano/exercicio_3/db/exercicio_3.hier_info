@@ -1,0 +1,16 @@
+|exercicio_3
+in_vec[3] => x_vec.IN0
+in_vec[2] => x_vec.IN0
+in_vec[1] => x_vec.IN0
+in_vec[0] => x_vec.IN0
+s_vec[1] => x_vec[1].IN1
+s_vec[1] => x_vec[3].IN1
+s_vec[1] => x_vec[0].IN1
+s_vec[1] => x_vec[2].IN1
+s_vec[0] => x_vec.IN1
+s_vec[0] => x_vec.IN1
+s_vec[0] => x_vec.IN1
+s_vec[0] => x_vec.IN1
+SAIDA << SAIDA.DB_MAX_OUTPUT_PORT_TYPE
+
+
