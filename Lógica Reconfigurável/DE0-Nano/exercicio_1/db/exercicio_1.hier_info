@@ -1,0 +1,11 @@
+|exercicio_1
+A => X.IN0
+A => Carry_OUT.IN0
+B => X.IN1
+B => Carry_OUT.IN1
+Carry_IN => Carry_OUT.IN1
+Carry_IN => SUM.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+Carry_OUT <= Carry_OUT.DB_MAX_OUTPUT_PORT_TYPE
+
+
