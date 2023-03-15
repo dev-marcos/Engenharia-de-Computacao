@@ -33,4 +33,6 @@ while True:
 
     tratamento_cliente(socket_dados)
 
+    
+    
 
