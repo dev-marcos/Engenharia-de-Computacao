@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/aluno/Desktop/DE1-SOC/exemplo1/Primeiro_projeto.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/aluno/Desktop/DE1-SOC/exemplo1/db/exemplo1.cbx.xml
+design_name = Primeiro_projeto
+instance = comp, \LEDR[0]~output\, LEDR[0]~output, Primeiro_projeto, 1
+instance = comp, \SW[0]~input\, SW[0]~input, Primeiro_projeto, 1
+instance = comp, \SW[1]~input\, SW[1]~input, Primeiro_projeto, 1
+instance = comp, \LEDR~0\, LEDR~0, Primeiro_projeto, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, Primeiro_projeto, 1

@@ -1,0 +1,19 @@
+# do exercicio-2.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:22:10 on Mar 15,2023
+# vlog -work work exercicio-2.vo 
+# -- Compiling module \exercicio-2 
+# 
+# Top level modules:
+# 	\exercicio-2 
+# End time: 16:22:10 on Mar 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:22:10 on Mar 15,2023
+# vlog -work work Waveform.vwf.vt 
+# ** Error: (vlog-13069) Waveform.vwf.vt(29): near "-": syntax error, unexpected '-', expecting "SystemVerilog keyword 'import'" or ';' or '#' or '('.
+# End time: 16:22:10 on Mar 15,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: c:/intelfpga_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Executing ONERROR command at macro ./exercicio-2.do line 4

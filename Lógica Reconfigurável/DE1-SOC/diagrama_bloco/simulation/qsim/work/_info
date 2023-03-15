@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/aluno/Desktop/DE1-SOC/diagrama_bloco/simulation/qsim
+vdiagrama_bloco
+Z1 !s110 1678905698
+!i10b 1
+!s100 =3<kYZXlBMg4]JbbQ>QIU3
+IinLme`ERJ:Q>C:QDIC?Cl1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1678905696
+8diagrama_bloco.vo
+Fdiagrama_bloco.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1678905698.000000
+!s107 diagrama_bloco.vo|
+!s90 -work|work|diagrama_bloco.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vdiagrama_bloco_vlg_vec_tst
+R1
+!i10b 1
+!s100 WT8N>0BHe0MbV=`LLDl>I0
+IddYgSWEWS4Q9:nOhLzSV92
+R2
+R0
+w1678905694
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6

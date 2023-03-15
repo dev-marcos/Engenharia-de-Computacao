@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/aluno/Desktop/DE1-SOC/diagrama_bloco/diagrama_bloco.bdf
+source_file = 1, C:/Users/aluno/Desktop/DE1-SOC/diagrama_bloco/Waveform.vwf
+source_file = 1, C:/Users/aluno/Desktop/DE1-SOC/diagrama_bloco/db/diagrama_bloco.cbx.xml
+design_name = diagrama_bloco
+instance = comp, \LEDR[2]~output\, LEDR[2]~output, diagrama_bloco, 1
+instance = comp, \LEDR[1]~output\, LEDR[1]~output, diagrama_bloco, 1
+instance = comp, \LEDR[0]~output\, LEDR[0]~output, diagrama_bloco, 1
+instance = comp, \SW[0]~input\, SW[0]~input, diagrama_bloco, 1
+instance = comp, \SW[1]~input\, SW[1]~input, diagrama_bloco, 1
+instance = comp, \SW[2]~input\, SW[2]~input, diagrama_bloco, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, diagrama_bloco, 1
